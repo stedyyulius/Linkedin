@@ -1,0 +1,20 @@
+.timeline-container {
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  width: 500px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timeline-top {
+  flex-direction: row;
+}
+
+.timeline-top p, b {
+  margin: 0;
+}
+
+.timeline-picture {
+  width: 50px;
+  border-radius: 50px;
+  margin: 5px;
+}
