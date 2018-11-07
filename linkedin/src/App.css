@@ -1,3 +1,9 @@
 .content {
   margin-top: 80px;
 }
+
+.image-circle {
+  width: 50px;
+  border-radius: 50px;
+  margin: 5px;
+}

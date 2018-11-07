@@ -16,5 +16,6 @@
 .timeline-picture {
   width: 50px;
   border-radius: 50px;
-  margin: 5px;
+  float: left;
+  margin: 10px;
 }
