@@ -13,16 +13,16 @@
 }
 
 .navbar-main {
-  padding: 10px 0 40px 0;
+  padding: 15px 0 40px 0;
   border-top: none;
   box-shadow: none;
-  height: 64px;
+  height: 75px;
   display: flex;
   border-right: 1px solid white;
 }
 
 .navbar-main2 {
-  padding: 10px 0 40px 0;
+  padding: 15px 0 40px 0;
   border-top: none;
   box-shadow: none;
   height: 54px;
@@ -83,7 +83,7 @@
 .fa-search {
   position: absolute;
   left: 90px;
-  bottom: 25px;
+  bottom: 32px;
 }
 
 .search-bar {

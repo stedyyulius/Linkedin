@@ -1,12 +1,13 @@
 .timeline-container {
   border: 1px solid rgba(0, 0, 0, 0.19);
   width: 500px;
-  padding: 5px;
+  padding: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .timeline-top {
-  flex-direction: row;
+  margin-bottom: 20px;
+  height: 60px;
 }
 
 .timeline-top p, b {
@@ -18,4 +19,44 @@
   border-radius: 50px;
   float: left;
   margin: 10px;
+}
+
+.timeline-body {
+  border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.timeline-content-detail {
+  padding: 8px;
+}
+
+.timeline-content-pic {
+  max-width: 480px;
+  display: block;
+  margin: auto
+}
+
+.timeline-like {
+  padding-top: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.timeline-footer {
+  display: flex;
+  padding-top: 10px
+}
+
+.timeline-footer-navigation {
+  margin-right: 20px;
+}
+
+.timeline-footer-navigation span {
+  margin-right: 13px;
+  margin-left: 13px;
+  float: left;
+}
+
+.timeline-footer-navigation p {
+  float: left;
+  font-weight: bold;
+  line-height: 11px;
 }

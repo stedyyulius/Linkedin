@@ -14,6 +14,32 @@ class Timeline extends Component {
               <p>1d</p>
            </div>
          </div>
+         <div className="timeline-body">
+           <div>
+             <img className="timeline-content-pic" src="https://daily.oktagon.co.id/wp-content/uploads/2017/12/Artificial-Intelligence-1.jpg?412b0e" alt="timeline-content-pic" />
+             <div className="timeline-content-detail">
+               <b>Artificial Intelligence (AI), dari Teknologi Abstrak Hingga jadi 'Otak' Bisnis </b>
+               <p>daily.oktagon.co.id</p>
+             </div>
+           </div>
+         </div>
+         <div className="timeline-like">
+           <p>1 Like</p>
+         </div>
+         <div className="timeline-footer">
+           <div className="timeline-footer-navigation">
+             <span className="fa fa-thumbs-up"></span>
+             <p>Like</p>
+           </div>
+           <div className="timeline-footer-navigation">
+             <span className="fa fa-comment"></span>
+             <p>Comment</p>
+           </div>
+           <div className="timeline-footer-navigation">
+             <span className="fa fa-share"></span>
+             <p>Share</p>
+           </div>
+         </div>
       </div>
     )
   }
