@@ -35,7 +35,7 @@
 }
 
 .fa-sort-desc {
-  font-size: 12px !important;
+  font-size: 13px !important;
 }
 
 .navbar-menu {
@@ -59,13 +59,13 @@
   width: 200px;
   color: white;
   text-align: center;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 
 .navbar-main2 a span {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .profile-icon {

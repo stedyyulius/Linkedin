@@ -1,9 +1,14 @@
 .content {
-  margin-top: 80px;
+  padding: 90px 250px 250px 250px;
 }
 
 .image-circle {
   width: 50px;
   border-radius: 50px;
   margin: 5px;
+  float: left;
+}
+
+.pointer {
+  cursor: pointer;
 }

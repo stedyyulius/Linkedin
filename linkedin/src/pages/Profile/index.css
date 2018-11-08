@@ -1,0 +1,74 @@
+.profile-container {
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  height: 580px;
+  margin-bottom: 20px;
+}
+
+.profile-upper {
+  background-image: url('https://static.licdn.com/sc/h/3chad3rzxalsf65nuo7hxciac');
+  height: 200px;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.profile-lower {
+  margin-top: -100px;
+}
+
+.profile-image {
+  width: 200px;
+  border-radius: 200px;
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+  border: 3px solid white;
+}
+
+.profile-navigations button{
+  margin-right: 15px;
+}
+
+.profile-education span {
+  float: left;
+  margin-right: 10px;
+}
+
+.profile-description {
+  border-top: 1px solid rgba(0, 0, 0, 0.19);
+  padding: 20px 0 5px 0;
+  margin: 15px 0 15px 0;
+  text-align: justify;
+}
+
+.profile-highlights {
+  padding: 20px 20px 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.circle-container {
+  float: left;
+}
+
+.profile-small-pic1 {
+  float: left;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+.profile-small-pic2 {
+  float: left;
+  position: relative;
+  z-index: 1;
+  right: 20px;
+  top: 10px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+.circle-container span {
+  font-size: 50px;
+  margin-right: 20px;
+}

@@ -83,7 +83,12 @@ class Navbar extends Component {
         <div className="navbar-main col-md-10">
           <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="logo" />
           <div>
-            <input className="search-bar" type="text" placeholder="Search" onClick={() => this.setState({ isSearch: true })} onChange={(e) => this.handleSearch(e.target.value)}/>
+            <input className="search-bar"
+              type="text" placeholder="Search"
+              onClick={() => this.setState({ isSearch: true })}
+              onChange={(e) => this.handleSearch(e.target.value)}
+              onBlur={() => this.setState({ isSearch: false })}
+              />
             <span className="fa fa-search"></span>
             {this.searchResults()}
           </div>
@@ -94,7 +99,7 @@ class Navbar extends Component {
                 <p>{menu.name}</p>
               </Link>
             ))}
-            <Link to="/" className="col-md-2">
+            <Link to="/profile" className="col-md-2">
               <img className="profile-icon" src="https://media.licdn.com/dms/image/C5603AQFqH8-QoYdjDQ/profile-displayphoto-shrink_800_800/0?e=1547078400&v=beta&t=rnEAsI--sKiN-IqoGliTauM62RVX8q_IHl8tWFkTEzo" alt="profile icon" />
               <p className="me">Me<span className="fa fa-sort-desc"></span></p>
             </Link>
