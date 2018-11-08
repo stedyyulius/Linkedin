@@ -7,7 +7,7 @@ class Profile extends Component {
   render() {
     return (
       <div>
-        <div className="profile-container">
+        <div className="profile-container row">
           <div className="profile-upper"></div>
           <img className="profile-image" src="https://media.licdn.com/dms/image/C5603AQELcNiSd4iakA/profile-displayphoto-shrink_800_800/0?e=1547078400&v=beta&t=C_RUBIi1Q9S-FXeIVfEFAklaC_hRDLhl5nRCXk1TLpA" alt="profile-pic"/>
           <br />
@@ -39,16 +39,16 @@ class Profile extends Component {
               <p>500+ Connections</p>
             </div>
           </div>
-          <div className="profile-description col-md-12">
+          <div className="profile-description">
             <p>
               An experienced programmer in various fields of computer science including game development, web
               application, computational intelligence multimedia application, ect. A fast learner who can quickly
               adapt to the new concepts and technology. Have the ability to design a good system architecture.
             </p>
+            <ShowMore />
           </div>
-          <ShowMore />
         </div>
-        <div className="profile-highlights col-md-12">
+        <div className="profile-highlights row">
           <h5>Highlights</h5>
           <div className="col-md-6">
             <div className="circle-container">

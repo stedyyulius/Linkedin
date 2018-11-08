@@ -1,7 +1,7 @@
 .profile-container {
   border: 1px solid rgba(0, 0, 0, 0.19);
-  height: 580px;
   margin-bottom: 20px;
+  height: auto;
 }
 
 .profile-upper {
@@ -35,15 +35,21 @@
 
 .profile-description {
   border-top: 1px solid rgba(0, 0, 0, 0.19);
-  padding: 20px 0 5px 0;
-  margin: 15px 0 15px 0;
+  padding-top: 20px;
+  margin-top: 35px;
   text-align: justify;
 }
 
+.profile-description p{
+  margin: 15px;
+}
+
 .profile-highlights {
-  padding: 20px 20px 0 20px;
   border: 1px solid rgba(0, 0, 0, 0.19);
-  margin-bottom: 20px;
+}
+
+.profile-highlights h5{
+  margin: 10px;
 }
 
 .circle-container {
