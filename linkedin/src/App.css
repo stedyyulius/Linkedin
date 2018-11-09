@@ -1,14 +1,30 @@
 .content {
-  padding: 90px 250px 250px 250px;
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  .content {
+  	padding: 0;
+  }
 }
 
 .image-circle {
   width: 50px;
   border-radius: 50px;
-  margin: 5px;
+  margin: 10px;
   float: left;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.card .card-title {
+  margin: 10px;
 }

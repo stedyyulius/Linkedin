@@ -1,7 +1,12 @@
+.profile-page {
+  padding: 0 0 250px 150px;
+}
+
 .profile-container {
   border: 1px solid rgba(0, 0, 0, 0.19);
   margin-bottom: 20px;
   height: auto;
+  background-color: white;
 }
 
 .profile-upper {
@@ -40,16 +45,8 @@
   text-align: justify;
 }
 
-.profile-description p{
+.desc {
   margin: 15px;
-}
-
-.profile-highlights {
-  border: 1px solid rgba(0, 0, 0, 0.19);
-}
-
-.profile-highlights h5{
-  margin: 10px;
 }
 
 .circle-container {
@@ -77,4 +74,28 @@
 .circle-container span {
   font-size: 50px;
   margin-right: 20px;
+}
+
+.work-place {
+  width: 120px;
+}
+
+.show-experience {
+  margin: 20px;
+  color: #0073b1;
+  font-weight: bold;
+}
+
+.accomplishment-amount {
+  font-size: 45px;
+  text-align: right;
+}
+
+.accomplishment-amount, .accomplishment-title {
+  color: #0073b1;
+}
+
+.interest-image {
+  width: 90px;
+  margin: 0px 0 10px 10px;
 }
